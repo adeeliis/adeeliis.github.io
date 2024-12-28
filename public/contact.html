@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONTACTO</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/estilo3.css">
+    </head>
+    <body>
+        <h1>CONTACTO</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+                <li><a href="net.html">RED</a></li>
+                <li><a href="topic.html">TÓPICO</a></li>
+                <li><a href="degree.html">GRADO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="texto">
+        <p>Si quiere ponerse en contacto conmigo, rellene el siguiente formulario, le contestaré lo más rápido posible.</p>
+        </div>
+        <div class="formulario">
+            <form action="contact.html" method="post">
+                <ul>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name"/>
+                    <p>
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email"/>
+                    </p>
+                    <p>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </p>
+                    <button type="submit">Send your message</button>
+                </ul>
+            </form>
+        </div>
+    </body>
+</html>
